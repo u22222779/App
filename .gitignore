@@ -1,0 +1,45 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Node
+node_modules/
+package-lock.json
+
+# Build
+dist/
+build/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# PHP / Composer
+vendor/
+composer.lock
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+ehthumbs.db
+Icon?
+
+# Database files
+*.sqlite
+*.sqlite3
+
+# XAMPP htdocs local files
+*.local
+
+# Others
+coverage/
+/*.env
