@@ -1,0 +1,60 @@
+; cPanel first:110.0.7 (update_time):1772949463 Cpanel::ZoneFile::VERSION:1.3 hostname:h2.a1center.net latest:130.0.16
+; Zone file for sedir.org.pe
+$TTL 14400
+sedir.org.pe.	86400	IN	SOA	ns71.aqphost.com.	root.ip216.ip-51-79-58.net.	(
+						2026030801 ;Serial Number
+						3600 ;refresh
+						1800 ;retry
+						1209600 ;expire
+						86400	)
+; sedir.org.pe.	86400	IN	SOA	ns71.aqphost.com.	nots.a1center.net.	(						2024010501						3600						7200						1209600						86400	) ; Previous value removed by cPanel transfer auto-merge on 20240120030017 GMT
+sedir.org.pe.	86400	IN	NS	ns71.aqphost.com.
+sedir.org.pe.	86400	IN	NS	ns72.aqphost.com.
+sedir.org.pe.	14400	IN	A	192.99.207.151
+sedir.org.pe.	14400	IN	MX	0	sedir.org.pe.
+mail	14400	IN	CNAME	sedir.org.pe.
+www	14400	IN	CNAME	sedir.org.pe.
+ftp	14400	IN	A	192.99.207.151
+sedir.org.pe.	14400	IN	TXT	"v=spf1 ip4:192.99.207.151 ip4:51.79.58.216 +mx +a include:_spf.h2.a1center.net include:_spfgeneral.a1center.net ~all"
+sedir.org.pe.	14400	IN	TXT	"MS=ms48876047"
+default._domainkey	14400	IN	TXT	"v=DKIM1\; k=rsa\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvXgeBLMJ9QUgiYr7t2lim85j2vj0QTlH0C5gcU3djNcmtUqHLs742U/mdCzpRJpPJ+3Q7X5wdsCLwvowObZ+E1kEa9+Vnr5Ft2G++VbOowTAovbriWLu/si8b8c/c3WDO892pMNqLhVFLgpuvypQ3ysqAnYCBk3Xs/AZ8ImSfdYC60Dpbl+D9hdzeCJyP8REO" "5uS1psdSLzCwFhF08SDmrnemY00ge7OJNI2AjG9LdDQzz6rx8NeBSglwgsSl68JzK8uLCOplN/5l60FNySZBcUB8jRe6r37CyiLDUfJNXuqA2aVP6xAqFWM1GEha9Eo98fSMtNb6asRbQRjKOtksQIDAQAB\;"
+_cpanel-dcv-test-record	14400	IN	TXT	"_cpanel-dcv-test-record=kSh5Vyrmc29_k2Yh1RWcQHmWIrfo_soqcwXqkRYOrihT8iarsgX0mkXFT8qDxCcb"
+_acme-challenge	14400	IN	TXT	"iWp53rfa9rrmOMRW3gzRUB-0-dxnY_xrnIpNt_Fxt4E"
+cpcontacts	14400	IN	A	192.99.207.151
+whm	14400	IN	A	192.99.207.151
+webdisk	14400	IN	A	192.99.207.151
+cpcalendars	14400	IN	A	192.99.207.151
+cpanel	14400	IN	A	192.99.207.151
+webmail	14400	IN	A	192.99.207.151
+autoconfig	14400	IN	A	192.99.207.151
+autodiscover	14400	IN	A	192.99.207.151
+_autodiscover._tcp	14400	IN	SRV	0	0	443	cpanelemaildiscovery.cpanel.net.
+_carddavs._tcp	14400	IN	SRV	0	0	2080	h2.a1center.net.
+_carddavs._tcp	14400	IN	TXT	"path=/"
+_caldavs._tcp	14400	IN	SRV	0	0	2080	h2.a1center.net.
+_caldavs._tcp	14400	IN	TXT	"path=/"
+_caldav._tcp	14400	IN	SRV	0	0	2079	h2.a1center.net.
+_caldav._tcp	14400	IN	TXT	"path=/"
+_carddav._tcp	14400	IN	SRV	0	0	2079	h2.a1center.net.
+_carddav._tcp	14400	IN	TXT	"path=/"
+pech	14400	IN	A	192.99.207.151
+www.pech	14400	IN	A	192.99.207.151
+default._domainkey.pech	14400	IN	TXT	"v=DKIM1\; k=rsa\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA+/eg+tlGtZ2RsgJbOUZgt+IddyNkqLeujhcugbFtSegyxgUcdwumaS2oN4QmlUCL0ZLGWSm8zZAUeRJpLx5O7pKuxk0YdPKajDS2PJj5w8iJTz02QqUFTEnPM1CdjTGtAYKuR+SMXMMZACU2iFP32KIWQiJb24OyTnqiddbG+Oqc5p2ZfXhdFO2iZOwLNhm7B" "pXiE/kYXJqOEUjZBCBegmVEcXmbLLlLQKShZG/mSshnomNsKOrfvsZia1ctbyBNw/qBHYOldkHQuUBN9ZpvZNFPX+fmbwAbLD0r2M7W2rooe7rEk+dxgk9WCsDBRd39cFC9hKL/TAWWUMCmSzEpXQIDAQAB\;"
+pech	14400	IN	TXT	"v=spf1 +a +mx +ip4:192.99.207.151 ~all"
+_carddav._tcp.pech	14400	IN	SRV	0	0	2079	pech.sedir.org.pe.
+_carddav._tcp.pech	14400	IN	TXT	"path=/"
+webdisk.pech	14400	IN	A	192.99.207.151
+cpanel.pech	14400	IN	A	192.99.207.151
+cpcontacts.pech	14400	IN	A	192.99.207.151
+whm.pech	14400	IN	A	192.99.207.151
+autoconfig.pech	14400	IN	A	192.99.207.151
+_caldav._tcp.pech	14400	IN	SRV	0	0	2079	pech.sedir.org.pe.
+_caldav._tcp.pech	14400	IN	TXT	"path=/"
+_caldavs._tcp.pech	14400	IN	SRV	0	0	2080	pech.sedir.org.pe.
+_caldavs._tcp.pech	14400	IN	TXT	"path=/"
+cpcalendars.pech	14400	IN	A	192.99.207.151
+webmail.pech	14400	IN	A	192.99.207.151
+autodiscover.pech	14400	IN	A	192.99.207.151
+_carddavs._tcp.pech	14400	IN	SRV	0	0	2080	pech.sedir.org.pe.
+_carddavs._tcp.pech	14400	IN	TXT	"path=/"
+_autodiscover._tcp.pech	14400	IN	SRV	0	0	443	cpanelemaildiscovery.cpanel.net.

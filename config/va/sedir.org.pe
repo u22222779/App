@@ -1,0 +1,12 @@
+webinar@sedir.org.pe: "|/usr/local/cpanel/bin/autorespond webinar@sedir.org.pe /home/sedirorg/.autorespond"
+webinarlista-admin@sedir.org.pe: "|/usr/local/cpanel/3rdparty/mailman/mail/mailman admin webinarlista_sedir.org.pe"
+webinarlista-bounces@sedir.org.pe: "|/usr/local/cpanel/3rdparty/mailman/mail/mailman bounces webinarlista_sedir.org.pe"
+webinarlista-confirm@sedir.org.pe: "|/usr/local/cpanel/3rdparty/mailman/mail/mailman confirm webinarlista_sedir.org.pe"
+webinarlista-join@sedir.org.pe: "|/usr/local/cpanel/3rdparty/mailman/mail/mailman join webinarlista_sedir.org.pe"
+webinarlista-leave@sedir.org.pe: "|/usr/local/cpanel/3rdparty/mailman/mail/mailman leave webinarlista_sedir.org.pe"
+webinarlista-owner@sedir.org.pe: "|/usr/local/cpanel/3rdparty/mailman/mail/mailman owner webinarlista_sedir.org.pe"
+webinarlista-request@sedir.org.pe: "|/usr/local/cpanel/3rdparty/mailman/mail/mailman request webinarlista_sedir.org.pe"
+webinarlista-subscribe@sedir.org.pe: "|/usr/local/cpanel/3rdparty/mailman/mail/mailman subscribe webinarlista_sedir.org.pe"
+webinarlista-unsubscribe@sedir.org.pe: "|/usr/local/cpanel/3rdparty/mailman/mail/mailman unsubscribe webinarlista_sedir.org.pe"
+webinarlista@sedir.org.pe: "|/usr/local/cpanel/3rdparty/mailman/mail/mailman post webinarlista_sedir.org.pe"
+*: :fail: No Such User Here

@@ -1,0 +1,29 @@
+--- 
+customlog: 
+  - 
+    format: combined
+    target: /etc/apache2/logs/domlogs/sedir.org.pe
+  - 
+    format: "\"%{%s}t %I .\\n%{%s}t %O .\""
+    target: /etc/apache2/logs/domlogs/sedir.org.pe-bytes_log
+documentroot: /home/sedirorg/public_html
+group: sedirorg
+hascgi: 0
+homedir: /home/sedirorg
+ifmodulemodsuphpc: 
+  group: sedirorg
+ip: 192.99.207.151
+owner: aqphost
+phpopenbasedirprotect: 1
+port: 80
+scriptalias: 
+  - 
+    path: /home/sedirorg/public_html/cgi-bin
+    url: /cgi-bin/
+serveradmin: webmaster@sedir.org.pe
+serveralias: mail.sedir.org.pe www.sedir.org.pe
+servername: sedir.org.pe
+ssl_redirect: 1
+usecanonicalname: 'Off'
+user: sedirorg
+userdirprotect: ''

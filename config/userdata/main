@@ -1,0 +1,8 @@
+--- 
+addon_domains: {}
+
+main_domain: sedir.org.pe
+parked_domains: []
+
+sub_domains: 
+  - pech.sedir.org.pe

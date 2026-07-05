@@ -1,0 +1,18 @@
+--- 
+documentroot: /home/sedirorg/pech.sedir.org.pe
+group: sedirorg
+hascgi: 1
+homedir: /home/sedirorg
+ip: 192.99.207.151
+ipv6: ~
+no_cache_update: 0
+owner: aqphost
+phpopenbasedirprotect: 1
+phpversion: ea-php74
+serveradmin: webmaster@pech.sedir.org.pe
+serveralias: www.pech.sedir.org.pe
+servername: pech.sedir.org.pe
+ssl_redirect: ''
+usecanonicalname: 'Off'
+user: sedirorg
+userdirprotect: ''

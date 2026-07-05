@@ -1,45 +1,27 @@
+# Excluir carpetas grandes y datos sensibles
+homedir/
+jetbackup.configs/
+jetbackup.index
+certificate/
+ssl/
+sslcerts/
+sslkeys/
+apache_tls/
+database/
+database_user/
+logs/
+httpfiles/
+backup/
+
+# Archivos de base de datos
+*.sql
+*.sql.gz
+
 # System files
 .DS_Store
 Thumbs.db
 
-# Logs
-*.log
-npm-debug.log*
-
-# Node
+# Node / Python env (por si acaso)
 node_modules/
-package-lock.json
-
-# Build
-dist/
-build/
-
-# Environment
-.env
-.env.local
-.env.*.local
-
-# PHP / Composer
-vendor/
-composer.lock
-
-# IDEs and editors
-.vscode/
-.idea/
-*.sublime-project
-*.sublime-workspace
-
-# OS generated files
-ehthumbs.db
-Icon?
-
-# Database files
-*.sqlite
-*.sqlite3
-
-# XAMPP htdocs local files
-*.local
-
-# Others
-coverage/
-/*.env
+venv/
+__pycache__/

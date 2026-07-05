@@ -1,0 +1,18 @@
+--- 
+documentroot: /home/sedirorg/public_html
+group: sedirorg
+hascgi: 0
+homedir: /home/sedirorg
+ip: 192.99.207.151
+ipv6: ~
+owner: aqphost
+phpopenbasedirprotect: ~
+port: 443
+secruleengineoff: ~
+serveradmin: webmaster@sedir.org.pe
+serveralias: mail.sedir.org.pe www.sedir.org.pe
+servername: sedir.org.pe
+ssl: 1
+usecanonicalname: 'Off'
+user: sedirorg
+userdirprotect: ''
