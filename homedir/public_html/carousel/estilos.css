@@ -1,0 +1,29 @@
+/*******************************/   
+
+.contenedor2{
+   /* width: 1050px!important;
+    position: absolute; */
+    overflow: hidden;
+    background-color: #303030;
+    left: 15px;
+}
+#slider2{
+    background-size: 100% 100%;
+    position: relative;
+    animation: slider2 35s infinite linear alternate;
+    
+}
+
+
+@keyframes slider2{
+  0%   {left:-1000px; }
+
+  100% { left:200px; ;}
+}
+    
+    
+    
+    
+    
+    
+    

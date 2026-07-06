@@ -1,0 +1,11 @@
+
+
+
+informes@munilapampa.gob.pe
+Ts=xczx$JZ62
+
+
+DB: munilapa_2016
+US: munilapa_user001
+PS: X3P=%{7%,4*1
+

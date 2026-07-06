@@ -1,0 +1,6 @@
+[/home/sedirorg/public_html]
+htaccess_list = /home/sedirorg/public_html/we/.htaccess
+
+[/home/sedirorg/pech.sedir.org.pe]
+htaccess_list = /home/sedirorg/pech.sedir.org.pe/.htaccess,/home/sedirorg/pech.sedir.org.pe/wp-content/plugins/libro-de-reclamaciones-y-quejas/vendor/phenx/php-font-lib/.htaccess,/home/sedirorg/pech.sedir.org.pe/wp-content/plugins/gotmls/images/.htaccess,/home/sedirorg/pech.sedir.org.pe/wp-content/plugins/gotmls/safe-load/.htaccess,/home/sedirorg/pech.sedir.org.pe/wp-content/plugins/akismet/.htaccess,/home/sedirorg/pech.sedir.org.pe/wp-content/ai1wm-backups/.htaccess,/home/sedirorg/pech.sedir.org.pe/wp-content/uploads/wpcf7_uploads/.htaccess
+

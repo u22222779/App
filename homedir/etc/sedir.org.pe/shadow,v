@@ -1,0 +1,210 @@
+head	1.13;
+access;
+symbols;
+locks
+	sedirorg:1.13; strict;
+comment	@# @;
+
+
+1.13
+date	2016.08.13.06.50.29;	author sedirorg;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2015.11.10.17.06.44;	author sedirorg;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2015.11.10.17.06.44;	author sedirorg;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2015.11.09.21.30.19;	author sedirorg;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2015.10.24.14.32.01;	author sedirorg;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2015.10.24.14.31.33;	author sedirorg;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2015.10.24.14.31.17;	author sedirorg;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2015.07.23.15.47.44;	author sedirorg;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2015.07.23.15.47.30;	author sedirorg;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2015.07.23.15.47.01;	author sedirorg;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2015.07.23.15.47.01;	author sedirorg;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2014.09.02.21.48.20;	author sedirorg;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2014.09.02.21.48.20;	author sedirorg;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.13
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@direccion:$1$ZdwC4PQW$8J2Ol770WLI9o9cF9peqe0:16315::::::
+contabilidad:$1$7lasKEep$30p0AI8WnpDwPfCCBwsm61:16639::::::
+secretaria:$1$MVt0k.ja$S.te1lbgpRj/Jd3AOLsjf0:16639::::::
+tesoreria:$1$4ZD5Gzzl$SgXBwWZXFFXaC.AHajYrz0:16732::::::
+pradio:$1$WNfIFslm$jqp8q.1/tcPsWDD5HXlG6.:16732::::::
+coordinador:$1$t0FxvGS/$KkQvBgogVNHHaUml5bq9K.:16748::::::
+extensionagraria:$1$MLzI8Kdm$IY.Cydh7zZUK8rwgm3zMA0:16749::::::
+informes:$1$OgzYStf0$YH3vKIZX3bLCG4PYFreqZ.:17026::::::
+@
+
+
+1.12
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@d8 1
+@
+
+
+1.11
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@d7 1
+@
+
+
+1.10
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@d1 6
+a6 6
+direccion:$1$jw3LCwmX$MRijCStHty.biaAFS9kKd/:16315::::::
+contabilidad:$1$99PRXglp$JFspJon2egws5ekO5VoHK.:16639::::::
+secretaria:$1$Jm9kYxGq$NUuKvkemiCeGUfeCi8C2o.:16639::::::
+tesoreria:$1$WigyVso5$LrAWNheS36l0U1ZYmKfps/:16732::::::
+pradio:$1$u/Va9kD1$untutV/BtUlO3CXaH/uw90:16732::::::
+coordinador:$1$plJ5CmR9$DbzZyyuySXejl5DEISHof/:16748::::::
+@
+
+
+1.9
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@d6 1
+@
+
+
+1.8
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@d5 1
+@
+
+
+1.7
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@d4 1
+@
+
+
+1.6
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@a3 1
+tesoreria:$1$T8Pa.4.b$slNefc5oIcnJTQujS5PNf1:16639::::::
+@
+
+
+1.5
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@d4 1
+@
+
+
+1.4
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@d3 1
+@
+
+
+1.3
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@d2 1
+@
+
+
+1.2
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@d1 1
+a1 1
+direccion:$1$gJkTI87I$jY2lipBHcHz5rlMxqTR0j0:16315::::::
+@
+
+
+1.1
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@d1 1
+@

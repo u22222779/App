@@ -1,0 +1,101 @@
+--- 
+files: 
+  certificate: 
+    sedir_org_pe_c0af7_6a33d_1516254047_af4fce53f897370839f971702d478dae: 
+      created: '1508481647'
+      domains: 
+        - autodiscover.sedir.org.pe
+        - cpanel.sedir.org.pe
+        - mail.sedir.org.pe
+        - sedir.org.pe
+        - webdisk.sedir.org.pe
+        - webmail.sedir.org.pe
+        - www.sedir.org.pe
+      friendly_name: Cert for “sedir.org.pe”
+      id: sedir_org_pe_c0af7_6a33d_1516254047_af4fce53f897370839f971702d478dae
+      is_self_signed: 0
+      issuer.commonName: Let's Encrypt Authority X3
+      issuer.organizationName: Let's Encrypt
+      modulus: c0af7841a59f85469b8181b7627361a07945689cf39b49067e417e312d16644bc3b03462aa58bf7f343f249ad969dcb3e62a08ff686e7b9889d57af1f4a83aa5e1f9b70b7e848a62c7c25cabb974899aad38e4c5bd59d1748ba72178004446091e5b5f3f11c5d428647083752f400898393df78a71f9172b2cf7599b39c327125017c0f2d732075749965e3ac9f984e06a5b1a56145a858187d1717f0548b7795fec925c9e0ebfa3369e79f8fa37eaf159c8f12b2f86a48e7f27ba37ecdbdfedba1da86203f77a7d4bae437ea0acacd50700dce275f5f2a2aafe0207d1ceb9546ad626864c0b1576ea795b8a3e0a4b61e98f12e5d70848e715bb81962386a33d
+      modulus_length: 2048
+      not_after: '1516254047'
+      not_before: '1508478047'
+      signature_algorithm: sha256WithRSAEncryption
+      subject.commonName: sedir.org.pe
+      validation_type: dv
+    sedir_org_pe_c25e0_c8c75_1521524640_703777cd60661763f6353b2d7449f408: 
+      created: '1513752240'
+      domains: 
+        - autodiscover.sedir.org.pe
+        - cpanel.sedir.org.pe
+        - mail.sedir.org.pe
+        - sedir.org.pe
+        - webdisk.sedir.org.pe
+        - webmail.sedir.org.pe
+        - www.sedir.org.pe
+      friendly_name: Cert for “sedir.org.pe” 1513752240.0
+      id: sedir_org_pe_c25e0_c8c75_1521524640_703777cd60661763f6353b2d7449f408
+      is_self_signed: 0
+      issuer.commonName: Let's Encrypt Authority X3
+      issuer.organizationName: Let's Encrypt
+      modulus: c25e0db575ca4338943289ec72824cda22796462eeb8aac3e529419b2a31bf8612d8334e053eeb04bb15c001148b037494441fd2869568ebba28b41ee78264ba69ff0de3f3e50347f5225cee8a28b4bf4464b7ac54bef9493fea92abadf71b2f1e4689013749fad7d5f9fd345fdae1cf2d7fc1ca168762a535cb341aa79329c40b4d659a79f9630de8fc3e6e134e6844135718a3ff0e23fc01ab572c97a9c879cfdfcde674640008c9ca650b97470db1220a6c2a5f038838f752c3e0855ee5a82398e9582e39606c2744f2e3020e44789a4b69e1b00bdccb8fe8b79dfdd83db6bbe6e324c5cc00caff86eb70c6adbcee122709c0b7426ea0eef4347504fc8c75
+      modulus_length: 2048
+      not_after: '1521524640'
+      not_before: '1513748640'
+      signature_algorithm: sha256WithRSAEncryption
+      subject.commonName: sedir.org.pe
+      validation_type: dv
+    sedir_org_pe_c50ba_076bf_1526795230_afbf67e9a371d116cea967f4106c3a46: 
+      created: '1519022830'
+      domains: 
+        - autodiscover.sedir.org.pe
+        - cpanel.sedir.org.pe
+        - mail.sedir.org.pe
+        - sedir.org.pe
+        - webdisk.sedir.org.pe
+        - webmail.sedir.org.pe
+        - www.sedir.org.pe
+      friendly_name: Cert for “sedir.org.pe” 1519022830.0
+      id: sedir_org_pe_c50ba_076bf_1526795230_afbf67e9a371d116cea967f4106c3a46
+      is_self_signed: 0
+      issuer.commonName: Let's Encrypt Authority X3
+      issuer.organizationName: Let's Encrypt
+      modulus: c50ba17e74049deb4850318bcff40c99a74eaad23ada4210da77987e195f9890433768bff9ecb4facfa7d2b0d583a450fe8e7cc76ea04548bd1ef1f3af9dcd056c8b3baf47d519356ce6fa4f506769dbd5a02aa5ea6eb88a79fcee62c659fd1150e7a03ca68149f2ea6251b869edaabc781b3dc5739f819905d27b165b1b0a6149695ec1078e3f7ac545a9304989ee9313778b16961edbed511be7924f1e86fcd63a39357da68d992c5edab7a27c191abde708c4cb45a07866273d7086d6f90b71f175c3822d99b269cbba69fb6aafb7ea4763fc001efe2ec9ad01fa27951d7e2246d49d3b6686516a46f7d4e80146bc1f6f7369f52ef98f5f3235d548e076bf
+      modulus_length: 2048
+      not_after: '1526795230'
+      not_before: '1519019230'
+      signature_algorithm: sha256WithRSAEncryption
+      subject.commonName: sedir.org.pe
+      validation_type: dv
+  key: 
+    c0af7_6a33d_81f6722815825049bf796d9b5d2d0da7: 
+      created: '1508481647'
+      friendly_name: Key for “sedir.org.pe” 3
+      id: c0af7_6a33d_81f6722815825049bf796d9b5d2d0da7
+      modulus: c0af7841a59f85469b8181b7627361a07945689cf39b49067e417e312d16644bc3b03462aa58bf7f343f249ad969dcb3e62a08ff686e7b9889d57af1f4a83aa5e1f9b70b7e848a62c7c25cabb974899aad38e4c5bd59d1748ba72178004446091e5b5f3f11c5d428647083752f400898393df78a71f9172b2cf7599b39c327125017c0f2d732075749965e3ac9f984e06a5b1a56145a858187d1717f0548b7795fec925c9e0ebfa3369e79f8fa37eaf159c8f12b2f86a48e7f27ba37ecdbdfedba1da86203f77a7d4bae437ea0acacd50700dce275f5f2a2aafe0207d1ceb9546ad626864c0b1576ea795b8a3e0a4b61e98f12e5d70848e715bb81962386a33d
+      modulus_length: 2048
+    c25e0_c8c75_d0ddfa62dbe367d5b8fc54aa4b36dc84: 
+      created: '1513752240'
+      friendly_name: Key for “sedir.org.pe”
+      id: c25e0_c8c75_d0ddfa62dbe367d5b8fc54aa4b36dc84
+      modulus: c25e0db575ca4338943289ec72824cda22796462eeb8aac3e529419b2a31bf8612d8334e053eeb04bb15c001148b037494441fd2869568ebba28b41ee78264ba69ff0de3f3e50347f5225cee8a28b4bf4464b7ac54bef9493fea92abadf71b2f1e4689013749fad7d5f9fd345fdae1cf2d7fc1ca168762a535cb341aa79329c40b4d659a79f9630de8fc3e6e134e6844135718a3ff0e23fc01ab572c97a9c879cfdfcde674640008c9ca650b97470db1220a6c2a5f038838f752c3e0855ee5a82398e9582e39606c2744f2e3020e44789a4b69e1b00bdccb8fe8b79dfdd83db6bbe6e324c5cc00caff86eb70c6adbcee122709c0b7426ea0eef4347504fc8c75
+      modulus_length: 2048
+    c50ba_076bf_a2a8308b2e9769138ef056f271b79bed: 
+      created: '1519022830'
+      friendly_name: Key for “sedir.org.pe” 1519022830.0
+      id: c50ba_076bf_a2a8308b2e9769138ef056f271b79bed
+      modulus: c50ba17e74049deb4850318bcff40c99a74eaad23ada4210da77987e195f9890433768bff9ecb4facfa7d2b0d583a450fe8e7cc76ea04548bd1ef1f3af9dcd056c8b3baf47d519356ce6fa4f506769dbd5a02aa5ea6eb88a79fcee62c659fd1150e7a03ca68149f2ea6251b869edaabc781b3dc5739f819905d27b165b1b0a6149695ec1078e3f7ac545a9304989ee9313778b16961edbed511be7924f1e86fcd63a39357da68d992c5edab7a27c191abde708c4cb45a07866273d7086d6f90b71f175c3822d99b269cbba69fb6aafb7ea4763fc001efe2ec9ad01fa27951d7e2246d49d3b6686516a46f7d4e80146bc1f6f7369f52ef98f5f3235d548e076bf
+      modulus_length: 2048
+indexes: 
+  certificate: 
+    modulus: 
+      c0af7841a59f85469b8181b7627361a07945689cf39b49067e417e312d16644bc3b03462aa58bf7f343f249ad969dcb3e62a08ff686e7b9889d57af1f4a83aa5e1f9b70b7e848a62c7c25cabb974899aad38e4c5bd59d1748ba72178004446091e5b5f3f11c5d428647083752f400898393df78a71f9172b2cf7599b39c327125017c0f2d732075749965e3ac9f984e06a5b1a56145a858187d1717f0548b7795fec925c9e0ebfa3369e79f8fa37eaf159c8f12b2f86a48e7f27ba37ecdbdfedba1da86203f77a7d4bae437ea0acacd50700dce275f5f2a2aafe0207d1ceb9546ad626864c0b1576ea795b8a3e0a4b61e98f12e5d70848e715bb81962386a33d: 
+        sedir_org_pe_c0af7_6a33d_1516254047_af4fce53f897370839f971702d478dae: ~
+      c25e0db575ca4338943289ec72824cda22796462eeb8aac3e529419b2a31bf8612d8334e053eeb04bb15c001148b037494441fd2869568ebba28b41ee78264ba69ff0de3f3e50347f5225cee8a28b4bf4464b7ac54bef9493fea92abadf71b2f1e4689013749fad7d5f9fd345fdae1cf2d7fc1ca168762a535cb341aa79329c40b4d659a79f9630de8fc3e6e134e6844135718a3ff0e23fc01ab572c97a9c879cfdfcde674640008c9ca650b97470db1220a6c2a5f038838f752c3e0855ee5a82398e9582e39606c2744f2e3020e44789a4b69e1b00bdccb8fe8b79dfdd83db6bbe6e324c5cc00caff86eb70c6adbcee122709c0b7426ea0eef4347504fc8c75: 
+        sedir_org_pe_c25e0_c8c75_1521524640_703777cd60661763f6353b2d7449f408: ~
+      c50ba17e74049deb4850318bcff40c99a74eaad23ada4210da77987e195f9890433768bff9ecb4facfa7d2b0d583a450fe8e7cc76ea04548bd1ef1f3af9dcd056c8b3baf47d519356ce6fa4f506769dbd5a02aa5ea6eb88a79fcee62c659fd1150e7a03ca68149f2ea6251b869edaabc781b3dc5739f819905d27b165b1b0a6149695ec1078e3f7ac545a9304989ee9313778b16961edbed511be7924f1e86fcd63a39357da68d992c5edab7a27c191abde708c4cb45a07866273d7086d6f90b71f175c3822d99b269cbba69fb6aafb7ea4763fc001efe2ec9ad01fa27951d7e2246d49d3b6686516a46f7d4e80146bc1f6f7369f52ef98f5f3235d548e076bf: 
+        sedir_org_pe_c50ba_076bf_1526795230_afbf67e9a371d116cea967f4106c3a46: ~
+    subject.commonName: 
+      sedir.org.pe: 
+        sedir_org_pe_c0af7_6a33d_1516254047_af4fce53f897370839f971702d478dae: ~
+        sedir_or

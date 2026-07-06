@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^munilapampa\.gob\.pe$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.munilapampa\.gob\.pe$
+RewriteRule ^/?$ "http\:\/\/munilapampa\.gob\.pe\/web\/" [R=301,L]
+

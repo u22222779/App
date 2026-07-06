@@ -1,0 +1,36 @@
+--- 
+__version: '2.1'
+sedir.org.pe: 
+  account_count: 7
+  accounts: 
+    contabilidad: 
+      disk_mtime: '1450885377'
+      diskquota: 262144000
+      diskused: 44936720
+    coordinador: 
+      disk_mtime: '1450885377'
+      diskquota: 262144000
+      diskused: 8598
+    direccion: 
+      disk_mtime: '1450885377'
+      diskquota: 0
+      diskused: 3905697
+    extensionagraria: 
+      disk_mtime: '1450885377'
+      diskquota: 262144000
+      diskused: 2018357
+    pradio: 
+      disk_mtime: '1450885377'
+      diskquota: 262144000
+      diskused: 10452
+    secretaria: 
+      disk_mtime: '1450885377'
+      diskquota: 262144000
+      diskused: 22154940
+    tesoreria: 
+      disk_mtime: '1450885377'
+      diskquota: 262144000
+      diskused: 2501432
+  disk_mtime: '1450885377'
+  passwd_mtime: '1450885377'
+  quota_mtime: '1450885377'

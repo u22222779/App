@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  //AGREGAR CAJA TAG
+  $("#wrapper").click(function(){ $("input:text[id=input]").focus() });
+  $("input:hidden[id=hidden]").attr("value",""); 
+  $("input:text[id=input]").css({"border":"none","height":"35px","width":"100%","outline":"none"});
+  $("input:text[id=input]").keyup(function(e) {
+    if(e.which == '188') {// keycode 44 con keypress (coma)este no leía la coma
+        var tag = $("input:text[id=input]").val();
+        if(tag.length > '3'){
+            $("#spans").append("<span class='yt-chip' title='"+tag+"' role='listitem'><span>"+tag+"</span><span class='yt-delete-chip' role='button'></span></span>");
+
+            $("input:hidden[id=hidden]").attr("value", function(i, origValue){//ojo importante para que vaya acumulando valores
+                return origValue +""+ tag;
+            });
+
+        }
+        $("input:text[id=input]").val("").text("").css("width","220px").attr("placeholder", "").focus();//limpiar input luego de cada ingreso
+    }
+  
+    $(".yt-delete-chip").click(function() { //ELIMINA TAG 
+        //borrar valores del value de hidden
+        var tageliminar = $(this).parent().attr("title");
+        var cadenaactual = $("input:hidden[id=hidden]").attr("value").split(',');
+        var cadenafinal = "";
+        for( var i = 0; i < cadenaactual.length-1; i++ ) {
+            if((cadenaactual[ i ]+",")  != tageliminar ){
+               cadenafinal = cadenafinal.concat(cadenaactual[ i ]+",");
+            }
+        }        
+        $("input:hidden[id=hidden]").attr("value",cadenafinal);
+        
+        $(this).parent().remove();//ELIMINA el html padre: 'yt-chip'        
+    });
+ 
+      
+});
+
+
+});
+</script>
+<style>
+  #wrapper, input{
+    border: 1px solid #a9a9a9;
+    border-radius: 2px;
+    padding: 1px 10px;
+    background: white;
+  }
+.yt-chip {
+    color: #333;
+    padding: 2px 0 0 9px;
+    cursor: pointer;
+    height: 28px;
+    line-height: 22px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin: 4px;
+    overflow: hidden;
+    resize: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    box-shadow: 0 1px 0 white;
+    display: inline-block;
+}
+.yt-chip span {
+    vertical-align: top;
+    max-width: 150px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+}
+.yt-chip .yt-delete-chip {
+    margin: 5px 0 0 3px;
+    cursor: pointer;
+    display: inline-block;
+    background: no-repeat url(//s.ytimg.com/yts/imgbin/www-videomanager-vflIbNRBF.webp) 0 -292px;
+    background-size: auto;
+    width: 15px;
+    height: 15px;
+}
+</style>
+
+</head>
+<body>
+<div id="wrapper">
+  <input type="hidden" name="tags" class="tags" id="hidden" >
+  <div id="spans"style="float: left;"></div>
+  <input class="small" type="text" id="input" size="550" placeholder="Etiquetas (p. ej.: capacitación, charla técnica, río loco, etc.)">
+
+</div>
+<p></p>
+
+</body>
+</html>
+

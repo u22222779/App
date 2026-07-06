@@ -1,0 +1,1 @@
+{"mode":"simple","version":"2.4","status":1,"timeout":0,"exit_code":0,"data":{".cgi .pl .plx .ppl .perl":"cgi-script",".shtml":"server-parsed"},"action":"fetch","statusmsg":"Ran adminbin Cpanel/apache/FETCHHANDLERS","error":0}

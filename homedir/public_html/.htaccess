@@ -1,0 +1,42 @@
+Options +FollowSymLinks
+Options -Indexes
+RewriteEngine on
+
+  #para URls amigables de ^ a $, ojo importante el - antes (para title) del 2do parametro
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^webinar/([0-9]+)/([-a-zA-Z0-9]+)$ webinar-detalle.php?id=$1&title=$2 [L]
+RewriteRule ^noticia/([0-9]+)/([-a-zA-Z0-9]+)$ /noticias/noticia-detalle.php?id=$1&title=$2 [L]
+
+RewriteOptions inherit
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^canal$ "https\:\/\/www\.youtube\.com\/\@SEDIRagro" [R=301,L]
+
+# BEGIN cPanel-generated php ini directives, do not edit
+# Manual editing of this file may result in unexpected behavior.
+# To make changes to this file, use the cPanel MultiPHP INI Editor (Home >> Software >> MultiPHP INI Editor)
+# For more information, read our documentation (https://go.cpanel.net/EA4ModifyINI)
+<IfModule php7_module>
+   php_flag display_errors Off
+   php_value max_execution_time 30
+   php_value max_input_time 60
+   php_value max_input_vars 1000
+   php_value memory_limit 128M
+   php_value post_max_size 8M
+   php_value session.gc_maxlifetime 1440
+   php_value session.save_path "/var/cpanel/php/sessions/ea-php74"
+   php_value upload_max_filesize 10M
+   php_flag zlib.output_compression Off
+</IfModule>
+<IfModule lsapi_module>
+   php_flag display_errors Off
+   php_value max_execution_time 30
+   php_value max_input_time 60
+   php_value max_input_vars 1000
+   php_value memory_limit 128M
+   php_value post_max_size 8M
+   php_value session.gc_maxlifetime 1440
+   php_value session.save_path "/var/cpanel/php/sessions/ea-php74"
+   php_value upload_max_filesize 10M
+   php_flag zlib.output_compression Off
+</IfModule>
+# END cPanel-generated php ini directives, do not edit

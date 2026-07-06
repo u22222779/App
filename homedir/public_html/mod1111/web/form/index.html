@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html
+<head>
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="http://munilapampa.gob.pe/web/form/estilos.css" />
+    <style>
+		.title_contact {
+			transform: scaleY(1.2);
+			font-family: 'Roboto', Arial, sans-serif;
+			color: #094617;
+			font-size: 15px;
+			margin: 25px auto 0;
+			width: 440px;
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+   <div class="title_contact">Formulario de contacto:</div>
+    <form method="post" class="contacto">
+        <fieldset>
+            <div><label>Nombre:</label><input type="text" class="nombre" name="nombre" placeholder="Tu nombre" required /></div>
+            <div><label>Email:</label><input type="text" class="email" name="email" placeholder="Email" required /></div>
+            <div><label>Telefono:</label><input type="text" class="telefono" name="email" placeholder="Tel&eacute;fono" required /></div>
+            <div><label>Mensaje:</label><textarea cols="30" rows="5" class="mensaje" name="mensaje" placeholder="Mensaje" required></textarea></div>
+            <div class="ultimo">
+                <img src="http://munilapampa.gob.pe/web/form/ajax.gif" class="ajaxgif hide" />
+                <div class="msg"></div>
+                <button class="boton_envio">Enviar Mensaje</button>
+            </div>
+        </fieldset>
+     </form>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="http:///munilapampa.gob.pe/web/form/funciones.js"></script>
+</body>
+</html>

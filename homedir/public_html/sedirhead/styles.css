@@ -1,0 +1,335 @@
+/* Reset de márgenes y paddings */
+#top_bg > header li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Barra de navegación */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4CAF50; /* Verde principal */
+    padding: 12px 20px;
+    position: relative;
+    width: 100%;
+}
+.navbar li>a {
+    color: white;
+    font-size: 16px;
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Enlaces de navegación */
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    position: relative;
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16x!important;
+    padding: 12px 15px;
+    display: block;
+    transition: background 0.3s ease, color 0.3s ease;
+    border-radius: 5px;
+}
+
+/* Hover en enlaces */
+.nav-links a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Submenú */
+.submenu {
+    list-style: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #388E3C; /* Verde oscuro */
+    display: block;
+    min-width: 280px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    
+    /* Animación inicial */
+    opacity: 0;
+    transform: translateY(20px); /* Comienza más abajo */
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+    pointer-events: none; /* Evita clics cuando está oculto */
+}
+
+
+.submenu li {
+    width: 100%;
+}
+
+.submenu a {
+    padding: 12px 15px;
+    color: white;
+    font-size: 16px;
+    transition: background 0.3s ease-in-out, padding-left 0.3s ease;
+}
+
+/* Efecto hover en submenú */
+.submenu a:hover {
+    background-color: #2E7D32; /* Verde más oscuro */
+    padding-left: 20px;
+}
+
+/* Mostrar submenú al pasar el mouse */
+.dropdown:hover .submenu {
+    opacity: 1;
+    transform: translateY(0); /* Se mueve a su posición original */
+    pointer-events: auto;
+}
+
+/* Botón de menú para móviles */
+.menu-toggle {
+    display: none;
+    font-size: 28px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+ /* ESTILO DE IMAGENES */
+ .img-general {
+     margin: auto; 
+     text-align: center;
+     border-radius: 10px;
+     border: 1px solid #cbccbf;
+     padding: 0;
+     width: 100%;
+}
+.img-general-sm {
+    margin: auto; 
+    text-align: center;
+    padding: 0;
+    width: 46%;
+}
+
+
+/* Responsive */
+
+
+@media (min-width: 1300px) {
+    .nav-links {
+        padding-right: 40px;
+    }
+}    
+
+
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #4CAF50;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        border-radius: 0 0 10px 10px;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    }
+    .nav-links li {
+        text-align: center;
+        margin: 0;
+        padding: 10px 0;
+    }
+    .nav-links a {
+        font-size: 20px;
+    }
+    .nav-links.active {
+        display: flex;
+    }
+
+    /* Submenú en móviles */
+    .submenu {
+        position: static;
+        display: none;
+        background-color: #388E3C;
+        box-shadow: none;
+        border-radius: 0;
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .dropdown.active .submenu {
+        display: block;
+    }
+    .navbar img {
+        width: 200px!important;;
+    }
+    .vermas img {
+        width: 120px!important;;
+    }
+    .suscripcioncanal img {
+        width: 100%!important;
+    }
+}
+
+@media (max-width:1180px) {
+
+    /* para los textos RESPONSIVOS*/    
+    #top_bg section {
+        width: auto!important;
+    }
+    .noti-detallee {
+        width: auto!important;
+        display: block!important;
+    }
+    
+    .noti-detallee img {
+        width: 83vw;
+    }
+        /* PAR AUNIDADES PRODUCTIVAS */
+        .unidades-prod {
+            display: flex !important;
+            flex-wrap: wrap;
+        }
+        .unidades-prod-det{
+            width: 40%;
+        }    
+        .unidades-prod img {
+            width: 90%;
+        }
+   
+    .noti-detallee, .conte-text, .conte-face{
+        width: 96%!important;
+        padding: 8px!important;
+    }
+
+     /* para plugin de facebook */
+    .fb-page-container {
+        max-width: 100%!important;
+        width: 100%!important;
+        overflow: hidden;
+        padding: 0 !important;
+    }
+
+}
+
+
+
+
+
+/* para los textos NO responsive */
+
+h1 > .notitit{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 33px;
+    font-size: 22px;
+    /* background-color: #0a9947;
+    padding: 5px 10px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.10); */
+    color: #0a9947;
+ }
+ h2 > .notitit{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 26px;
+    font-size: 18px;
+ }
+
+ h3 > .notitit{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 25px;
+    color: #b59771;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;    
+ }
+ h2>p, h3 > p{
+    margin: 70px;
+ }
+.notitex{
+    color: #5b6d5a;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif, Arial;
+    text-align: justify;
+    line-height: 28px;
+ }
+ .notitit{
+    padding: 0 0 6px 0;
+    font-weight: bolder;
+    color: #5f7d5d;
+ }
+  .notidate{
+    color: #869686;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif, Arial;
+    line-height: 18px;
+ }   
+ .noti-detallee{
+    width: 1050px;
+    display: flex;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 0 0 20px;
+ } 
+
+
+ /* ESTILO DE TABLA */
+ 
+ .tabla-objetivos {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .tabla-objetivos th, .tabla-objetivos td {
+    padding: 20px;
+    text-align: left;
+    vertical-align: top;
+    border-bottom: 1px solid #e0e0e0;
+  }
+
+  .tabla-objetivos th {
+    background-color: #f1f1f1;
+    color: #52554d;
+    font-size: 18px;
+    width: 30%;
+  }
+
+  .tabla-objetivos td {
+    background-color: #fffaed;
+    font-size: 16px;
+    color: #52554d;
+    line-height: 1.6;
+  }
+
+  .tabla-objetivos tr:last-child td {
+    border-bottom: none;
+  }

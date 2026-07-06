@@ -1,0 +1,228 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+@font-face {
+  font-family: "Inconsolata";
+  src: url(../fonts/inconsolata.ttf);
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(../fonts/Poppins-Bold.ttf);
+}
+body {
+  margin: 0;
+  font-family: "Inconsolata";
+}
+.main-header {
+  padding: 0 20px;
+}
+.main-header__title{
+  text-align: center;
+  font-size: 2.5em;
+  margin: 10px 0;
+  color: #454546;
+  font-family: "Poppins";
+}
+.main-header__container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-header__link {
+  color: #333;
+}
+
+/* Estilos del Menu */
+.main-nav {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
+  z-index: 999999;
+}
+.menu{
+  position: absolute;
+  top: 180px;
+  left: 0;
+  background:#212121ed;
+  width: 100%;
+  list-style: none;
+  padding: 0px;
+  margin: 0;
+}
+.menu__item {
+  text-align: center;
+  margin: auto;
+}
+.menu__link {
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  position: relative;
+  display: block;
+}
+.menu__link:hover {
+  background: white;
+  color: #212121;
+}
+
+.mostrar{
+  opacity: 1;
+  visibility: visible;
+}
+
+.icon-menu{
+  font-size: 1.5em;
+  border: 1px solid #454546; 
+  padding: 10px 20px;
+  cursor: pointer;
+    position: absolute;
+    top: 50px;
+    right: 5px;
+    z-index: 9999;
+}
+
+
+ .nav_type_1{
+    display: none;
+  }
+
+/* @MEDIA SCREEN */
+
+@media only screen and (min-width: 1024px) { 
+  .nav_type_1{
+    opacity: 1;
+    visibility: visible;
+    display: block;
+    }
+  .nav_type_1>ul{
+    background: #f5f5f5;
+  }    
+  .icon-menu {
+    display: none;
+  }
+  .main-nav {
+    display: none;
+  }
+ 
+}
+
+/* @MEDIA SCREEN menores que  1024px */
+@media only screen and (max-width: 1024px) { 
+    #boxed_layout { width: 100%; }
+    .wrapper { width:auto; }
+    .vc_gris { width: 100%; }
+    #header-top-social { display: none; }  
+    .cabe{ width: 100%; }
+    .loguito>a>img{ padding: 0!important;}
+    .direccion{ border-bottom: solid 1px #525151; }
+
+    .noticias img{
+    width: 100%!important;
+  }
+   .noticias,.face{
+    width: auto!important;
+    margin: 0 15px;
+  }        
+
+}
+
+/* @MEDIA SCREEN menores que  705px */
+@media only screen and (max-width: 705px) { 
+    .led{ position: static!important; padding-top: 50px;  }
+    .led a>img{ padding: 0!important; }   
+    .direccion{ margin: 15px!important; }
+    /* condiciones del clima */
+    .checkbox-clima>.checkbox-item:nth-child(1) { /* refifere 1er hermano*/ 
+      padding: 15px 0!important; 
+    }      
+    .checkbox-clima>.checkbox-item ~ .checkbox-item {/*rsto de hermanos*/ 
+      padding: 15px 0!important; 
+    } 
+    .checkbox-clima input[type="checkbox"]{ width: auto!important;  }
+    .checkbox-clima {
+      flex-direction: column;
+    } 
+    .vc_gris-voucher {
+      padding: 0 10px!important;
+      margin: auto!important;
+    } 
+    .vc_gris-inscripciones {
+      margin: auto 0px!important; width: auto!important;
+    } 
+   /* seccion radio */
+   .vc_row, .radio{
+    width: 100%!important; background-size: cover!important; 
+  }
+  section{
+    width: auto!important;
+  }    
+   /*PARA DETALLE NOTICIA*/ 
+  .noticias,.face{
+    width: auto!important;
+    margin: 0 15px;
+  }  
+  .noti-detallee{ 
+    display: block!important;
+    width: 100%;
+  }   
+  .noticias img{
+    width: 100%!important;
+  }
+  .notitit {
+    color: #107409;
+    font-size: 24px;
+    line-height: 27px;
+  }
+  .notitex{
+      font-size: 18px!important;
+      line-height: 27px;
+  }
+  .btn-revista{
+    display: block!important;
+    text-align: center;
+  }  
+  /*SIDEBAR MENU PEGAJOSO STICKY*/ 
+  .sidebar{
+    width: 100%!important;
+  }    
+}
+
+/* @MEDIA SCREEN menores que 457px */
+@media only screen and (max-width: 457px) { 
+    div#logo_img img { margin-left: auto; margin-right: 20px; max-width: 250px; margin-top:0;  }
+    .header_shadow  { min-height: 100px;  }
+    .vc_gris img{ padding: 0!important; }    
+    .icon-menu{ top: 20px; }    
+    .vc_gris img{ padding: 0!important; }    
+    .menu{ top: 100px; }
+    .direccion{  height: 120px!important; }
+    /* condiciones del clima */
+    .combo-clima>div ~ div {
+      padding: 15px 0!important;
+    }  
+    .checkbox-clima>.checkbox-item:nth-child(1) { /* refifere 1er hermano*/ 
+      padding: 15px 0!important; 
+    }      
+    .checkbox-clima>.checkbox-item ~ .checkbox-item {/*rsto de hermanos*/ 
+      padding: 15px 0!important; 
+    } 
+    .checkbox-clima input[type="checkbox"]{ width: auto!important;  }
+    .checkbox-clima {
+      flex-direction: column;
+    } 
+    .vc_gris-voucher {
+      padding: 0 10px!important;
+      margin: auto!important;
+    } 
+    .vc_gris-inscripciones {
+      margin: auto 0px!important; width: auto!important;
+    } 
+    /* seccion radio */
+    .vc_row, .radio{
+      width: 100%!important; background-size: cover!important; 
+    }
+    section{
+      width: auto!important;
+    }
+}
+
+
+

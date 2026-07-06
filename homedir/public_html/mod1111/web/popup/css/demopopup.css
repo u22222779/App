@@ -1,0 +1,48 @@
+/* Reset CSS */
+	.popup-wrapper {
+		margin:0;
+		padding:0;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.popup-container img {
+		max-width: 100% !important;
+		height: auto;
+	}
+	.popup-container ul {
+		list-style: none;
+	}
+/* end reset css */
+.popup-wrapper {
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+.popup-wrapper {
+	font-family: lato;
+	margin-top: 70px;
+}
+.navbar-wrapper {
+	background-color:#33C22C;
+	width:100%;
+	padding:0 20px;
+	position: fixed;
+	top:0;
+	left:0;
+	right:0;
+}
+.popup-wrapper .popup-container p{
+    font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 23px;
+    line-height: 31px;
+    color: #4e6b8a;
+}
+.popup-wrapper .popup-container a{
+	color: white;
+    text-decoration: none;
+}
+.popup-wrapper .popup-container a.popup-close{
+    color: white;
+    font-family: sans-serif;
+}
